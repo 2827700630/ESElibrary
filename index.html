@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电子科协资源库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #f8fafc;
+            padding: 2rem 1rem;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e293b;
+            margin-bottom: 2.5rem;
+            font-size: 2.2rem;
+            letter-spacing: -0.05em;
+        }
+
+        .nav-section {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .category-title {
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            margin: 0 0 1rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            background: #3b82f6;
+            display: inline-block;
+        }
+
+        .links-container {
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .nav-link {
+            display: flex;
+            align-items: center;
+            padding: 1rem 1.25rem;
+            background: #f8fafc;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #334155;
+            transition: all 0.2s ease;
+            border: 1px solid #e2e8f0;
+        }
+
+        .nav-link:hover {
+            background: #f1f5f9;
+            transform: translateY(-2px);
+            border-color: #cbd5e1;
+        }
+
+        .nav-link img {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            filter: grayscale(0.3);
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 1.5rem 0.5rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .nav-section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>回家的路</h1>
+
+        <div class="nav-section">
+            <h2 class="category-title">GitHub分流</h2>
+            <div class="links-container">
+                <a href="https://github.com/2827700630/ESElibrary" class="nav-link" target="_blank">
+                    <img src="https://github.com/favicon.ico" alt="GitHub">
+                    主仓库线路
+                </a>
+            </div>
+        </div>
+
+        <div class="nav-section">
+            <h2 class="category-title">B站分流</h2>
+            <div class="links-container">
+                <a href="https://space.bilibili.com/396573572" class="nav-link" target="_blank">
+                    <img src="https://www.bilibili.com/favicon.ico" alt="B站">
+                    视频资源站
+                </a>
+            </div>
+        </div>
+
+        <div class="nav-section">
+            <h2 class="category-title">立创开源广场分流正在建设中</h2>
+            <div class="links-container">
+
+            </div>
+        </div>
+        如有bug请联系管理员雪豹
+
+    </div>
+</body>
+
+</html>
